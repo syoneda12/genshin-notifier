@@ -27,17 +27,17 @@ header（情景描写）＋本文（ステータス）＋footer（哲学的余�
 
 ---
 
-## 🧩 構成
+## 🧩 構成 / Structure
 - src/main.gs : エントリーポイント
 - src/api.gs : HoYoLab APIアクセス
 - src/notify.gs : Discord通知
-- src/logger.gs : ログ管理（Logger + スプレッドシート）
+- src/logger.gs : ログ管理（Logger）
 - src/util.gs : 時刻変換など
 - src/config.gs : 設定情報（Webhook、UID、Cookieなど）
 
 ---
 
-## ⚙️ セットアップ手順
+## ⚙️ セットアップ手順 / Setup
 1. Google Apps Scriptに新規プロジェクトを作成
 2. `src/` 内のファイルを追加し、内容をコピー
 3. `config.gs` にUID、Cookie、Webhook、スプレッドシートIDを設定
@@ -46,7 +46,7 @@ header（情景描写）＋本文（ステータス）＋footer（哲学的余�
 
 ---
 
-## 🪵 ログ管理
+## 🪵 ログ管理 / Log
 - GASの `Logger` へ出力
 
 ## 🕒 定期実行設定
